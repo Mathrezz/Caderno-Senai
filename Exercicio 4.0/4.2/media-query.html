@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query</title>
+
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial;
+    }
+
+    .box {
+      background-color: rebeccapurple;
+      color: white;
+      width: 500px;
+      height: 300px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    @media (max-width: 600px) {
+      .box {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+      }
+
+      h1 {
+        color: red;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Media Query Test</h1>
+  <div class="box">
+    <p>Resize a tela para testar</p>
+  </div>
+</body>
+</html>

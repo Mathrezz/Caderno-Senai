@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Flexbox</title>
+  <style>
+    .flex-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+
+    .card {
+      background: blue;
+      color: white;
+      height: 100px;
+      width: 200px;
+      text-align: center;
+      line-height: 100px;
+    }
+
+    .first {
+      flex: 2;
+    }
+
+    .second {
+      flex: 0.5;
+    }
+  </style>
+</head>
+
+<body>
+  <h1>CSS Flexbox</h1>
+  <div class="flex-container">
+    <div class="first card"></div>
+    <div class="second card"></div>
+    <div class="third card"></div>
+    <div class="four card"></div>
+    <div class="five card"></div>
+  </div>
+
+
+</body>
+
+</html>
