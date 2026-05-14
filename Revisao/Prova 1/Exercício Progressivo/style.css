@@ -1,9 +1,27 @@
-.Apresentacao {
-    width: 300px;
-    height: auto;
+h1 {
+    text-align: center;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
 }
 
-h2{
+p{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.Container{
+    display: flex;
+    gap: 10px;
+}
+
+img{
+    width: 500px;
+    height: 300px;
+  }
+
+.Container h2{
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
 }
+
