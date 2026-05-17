@@ -25,3 +25,11 @@ img{
     font-size: 30px;
 }
 
+.footer{
+  text-align: center;
+  background:#111;
+  color:white;
+  padding:20px;
+  text-align:center;
+}
+
