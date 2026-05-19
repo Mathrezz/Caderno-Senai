@@ -98,6 +98,9 @@ body::before{
     margin-bottom: 10px;
 }
 
+.sobre .header{
+    align-items: center;
+}
 .sobre h2{
     text-align: center;
     font-family: 'Great Vibes', cursive;
@@ -111,7 +114,7 @@ body::before{
     background: rgba(255, 255, 255, 0.85);
     backdrop-filter: blur(14px);
     -webkit-backdrop-filter: blur(14px);
-    padding: 45px 55px;
+    padding: 45px 500px;
     border-radius: 22px;
     box-shadow: 0 12px 45px rgba(0, 0, 0, 0.4);
     max-width: 920px;
@@ -221,3 +224,4 @@ body::before{
 .sobre .footer {
     margin-top: 80px;
 }
+
