@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(84, 84, 255);
+    text-align: center;
+    text-transform: 50px;
+}
+
+section{
+    align-items: center;
+    text-align: center;
+}
+
+img{
+    width: 100%;
+    max-width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    border-radius: 50%;
+    border-color: red;
+    align-items: center;
+}
+
+.Cartao{
+    padding: 30%;
+    border-radius: 50%;
+    box-shadow: 200cm;
+}
+
+
+a{
+    color: red;
+    text-decoration: none;
+}
+
+a:hover{
+    color: pink;
+    text-decoration: underline;
+}
+
+ul{
+    list-style: none;
+    text-decoration: none;
+}
